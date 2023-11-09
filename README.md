@@ -14,7 +14,7 @@ Utilizaremos una librería que automatiza el proceso de ingeniería de caracter�
 * Pycaret
 
 
-# Tubería de procesamiento- entrenamiento-predicción  🧪
+# Tubería de procesamiento, entrenamiento y predicción  🧪
 
 Luego de extraer la data del repositorio de Kaggle con _**data_extraction.ipynb**_, aplicamos la tubería de preprocesamiento y entrenamiento. Esta funcionalidad ejecuta de manera automática el proceso iterativo de diseñar un modelo predictivo, probando varios modelos para la configuración de preprocesamiento definida y devolviendo el modelo con mejor desempeño, obteniendo una calificación AUC del 81% . Esta implementación se encuentra en _**pipeline_model.ipynb**_. 
 
