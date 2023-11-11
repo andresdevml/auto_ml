@@ -1,12 +1,9 @@
 # Predicción de satisfacción de clientes con AutoML 🤖
 
 
-Dadas las características del cliente y las respuestas dadas en la data, nuestro objetivo es predecir la respuesta del cliente al servicio, como satisfactorio o no satisfactorio. 
-
-Utilizaremos una librería que automatiza el proceso de ingeniería de características, optimización y despliegue del modelo predictivo. 
+El objetivo es predecir la respuesta del cliente al servicio, como satisfactorio o no satisfactorio. Utilizaremos una librería que automatiza el proceso de ingeniería de características, entrenamiento y despliegue del modelo predictivo. 
 
 # Herramientas 🔧
-
 
 * Python
 * Numpy
@@ -20,5 +17,5 @@ Luego de extraer la data del repositorio de Kaggle con _**data_extraction.ipynb*
 
 Finalización de la tubería 🏁
 
-Finalmente exportamos la tubería generada y probamos sobre data cruda de los clientes. Donde podemos observar que la tubería pre procesa la data, la entrega al modelo y arroja una predicción, contrastando estas predicciones con los resultados conocidos de antemano el modelo conserva la calificación AUC, obteniendo un 85%. Este proceso puede observarse en _**predict_moder.ipynb**_. Por lo cual se tiene un modelo listo para exportar y utilizar en producción.
+Finalmente exportamos la tubería generada y probamos sobre data cruda de los clientes. Donde podemos observar que la tubería pre procesa la data, la entrega al modelo y arroja una predicción. Contrastando estas predicciones con los resultados conocidos de antemano, el modelo conserva la calificación AUC, obteniendo un 85%. Este proceso puede observarse en _**predict_model.ipynb**_. Por lo cual se tiene un modelo listo para exportar y utilizar en producción.
 
