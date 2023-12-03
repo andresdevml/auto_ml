@@ -13,7 +13,7 @@ El objetivo es predecir la respuesta del cliente al servicio, como satisfactorio
 
 # Tubería de procesamiento, entrenamiento y predicción  🧪
 
-Luego de extraer la data del repositorio de Kaggle con _**data_extraction.ipynb**_, aplicamos la tubería de preprocesamiento y entrenamiento. Esta funcionalidad ejecuta de manera automática el proceso iterativo de diseñar un modelo predictivo, probando varios modelos para la configuración de preprocesamiento definida y devolviendo el modelo con mejor desempeño, obteniendo una calificación AUC del 81% . Esta implementación se encuentra en _**pipeline_model.ipynb**_. 
+Luego de extraer la data de la fuente de datos, aplicamos la tubería de preprocesamiento y entrenamiento. Esta funcionalidad ejecuta de manera automática el proceso iterativo de diseñar un modelo predictivo, probando varios modelos para la configuración de preprocesamiento definida y devolviendo el modelo con mejor desempeño, obteniendo una calificación AUC del 81% . Esta implementación se encuentra en _**pipeline_model.ipynb**_. 
 
 # Finalización de la tubería 🏁
 
