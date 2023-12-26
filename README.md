@@ -1,4 +1,4 @@
-# Predicción de satisfacción de clientes con AutoML 🤖
+# Implementación de AutoML 🤖
 
 
 Implementacion de procesamineto automatico. Utilizaremos una librería que automatiza el proceso de ingeniería de características, entrenamiento y despliegue del modelo predictivo. 
